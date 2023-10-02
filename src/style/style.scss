@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   height: 100vh;
   display: grid;
+  border: $borderWidth solid $borderColor;
   grid-template-rows: 1fr 10fr;
 }
 
@@ -21,7 +22,6 @@ body {
       grid-template-columns: repeat(5, 1fr) 1.5fr repeat(5, 1fr);
       background-color: $borderColor;
       gap: $borderWidth;
-      padding-top: 2px;
       .header__tab {
         background-color: white;
         padding: 30px 0;
